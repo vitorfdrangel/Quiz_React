@@ -29,6 +29,46 @@ const data = [
         options: ["div", "main", "section", "footer"],
         answer: "footer",
       },
+      {
+        question: "Entre quais tags é escrito o corpo da página?",
+        options: [
+          "<body></body>",
+          "<main></main>",
+          "<footer></footer>",
+          "<title></title>",
+        ],
+        answer: "<body></body>",
+      },
+      {
+        question: "A tag para adição do estilo CSS fica entre que tags?",
+        options: [
+          "<body></body>",
+          "<title></title>",
+          "<head></head>",
+          "<html></title>",
+        ],
+        answer: "<head></head>",
+      },
+      {
+        question: "Atributo usado para abrir uma página em branco:",
+        options: [
+          "Required='true'",
+          "Value='branco'",
+          "Class='white'",
+          "target='_blank'",
+        ],
+        answer: "target='_blank'",
+      },
+      {
+        question: "HTML é uma linguagem de...",
+        options: ["Criação", "Programação", "Formatação", "Informação"],
+        answer: "Formatação",
+      },
+      {
+        question: "Qual tag semântica usada para definir o conteudo principal?",
+        options: ["<link>", "<main>", "<header>", "<aside>"],
+        answer: "<main>",
+      },
     ],
   },
   {
