@@ -126,6 +126,47 @@ const data = [
         options: ["qty", "length", "items", "index"],
         answer: "length",
       },
+      {
+        question:
+          "Qual instrução é responsável por gerar uma saída no console browser?",
+        options: [
+          "alert()",
+          "console.log()",
+          "document.write()",
+          "createElement()",
+        ],
+        answer: "console.log()",
+      },
+      {
+        question: "O valor null atribuído a uma variável indica que:",
+        options: [
+          "O valor não pode ser modificado",
+          "Ausência intencional de um valor",
+          "Valor indefinido",
+          "Valor inteiro",
+        ],
+        answer: "Ausência intencional de um valor",
+      },
+      {
+        question: "Como abrir uma linha de comentário?",
+        options: ["~~", "<>", "/-", "//"],
+        answer: "//",
+      },
+      {
+        question: "Instrução para cancelar o envio padrão de formulário",
+        options: [
+          "preventDefault()",
+          "eventListener()",
+          "formCancel()",
+          "querySelector()",
+        ],
+        answer: "preventDefault()",
+      },
+      {
+        question: "Variável que permite ser modificada:",
+        options: ["Define", "Let", "Const", "Mod"],
+        answer: "Let",
+      },
     ],
   },
 ];
