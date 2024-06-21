@@ -90,6 +90,65 @@ const data = [
         options: ["static", "absolute", "fixed", "relative"],
         answer: "fixed",
       },
+      {
+        question: "Para alinhar o texto ao centro utilizamos:",
+        options: [
+          "text:center",
+          "text-align:center",
+          "align:center",
+          "text-center:align",
+        ],
+        answer: "text-align:center",
+      },
+      {
+        question:
+          "Pseudo-classe usada para alterar o estado de um elemento ao passar o ponteiro do mouse:",
+        options: ["hover", "clicked", "transfer", "visited"],
+        answer: "hover",
+      },
+      {
+        question: "Seletor universal:",
+        options: ["#", "*", "%", "&"],
+        answer: "*",
+      },
+      {
+        question:
+          "Regra de flex-box utilizada para alinhar elementos na horizontal:",
+        options: [
+          "align-items",
+          "centralized-items",
+          "center-content",
+          "justify-content",
+        ],
+        answer: "justify-content",
+      },
+      {
+        question:
+          "Selecione a alternativa que não representa uma pseudo-classe.",
+        options: ["checked", "disabled", "clicked", "hover"],
+        answer: "clicked",
+      },
+      {
+        question:
+          "Qual é a propriedade utilizada para configurar uma transição no CSS?",
+        options: [
+          "text-transform",
+          "transition",
+          "text-decoration",
+          "font-style",
+        ],
+        answer: "transition",
+      },
+      {
+        question: "Como criar bordas arredondadas?",
+        options: [
+          "border-radius",
+          "border",
+          "border-decoration",
+          "border-cicle",
+        ],
+        answer: "border-radius",
+      },
     ],
   },
   {
