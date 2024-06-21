@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # others
-*.config.js
+.eslintrc.cjs
